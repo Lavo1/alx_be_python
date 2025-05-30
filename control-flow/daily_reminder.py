@@ -1,8 +1,8 @@
 # daily_reminder.py
 # Prompt for a Single Task
 task = input("Enter your task: ")
-priority = input("Enter the task's priority (high, medium, low): ").lower()
 time_bound = input("Is this task time-bound? (yes or no): ").lower()
+priority = input("Enter the task's priority (high, medium, low): ").lower()
 # Process the Task Based on Priority and Time Sensitivity
 reminder = ""
 match priority:
