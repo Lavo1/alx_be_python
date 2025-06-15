@@ -9,7 +9,7 @@ def safe_divide(numerator, denominator):
     except ValueError:
         
         return "Error: Please enter numeric values only."
-       def main():
+def main():
     if len(sys.argv) != 3:
         print("Usage: python robust_division_main.py <numerator> <denominator>")
         return
