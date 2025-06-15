@@ -1,4 +1,4 @@
-£ simple-calculator.py
+# simple_calculator.py
 class SimpleCalculator:
     """A simple calculator class that supports basic arithmetic operations."""
        def add(self, a, b):
