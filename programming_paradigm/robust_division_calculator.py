@@ -9,11 +9,13 @@ def safe_divide(numerator, denominator):
     except ValueError:
         
         return "Error: Please enter numeric values only."
-        # programming_paradigm/main.py
-
-from robust_division_calculator import safe_divide
+       def main():
+    if len(sys.argv) != 3:
+        print("Usage: python robust_division_main.py <numerator> <denominator>")
+        return
+    numerator = sys.argv[1]
+    denominator = sys.argv[2]
+    print(safe_divide(numerator, denominator))
 
 if __name__ == "__main__":
-    numerator = input("Enter numerator: ")
-    denominator = input("Enter denominator: ")
-    print(safe_divide(numerator, denominator))
+    main()
